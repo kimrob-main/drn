@@ -4,7 +4,7 @@ import {
   PERMIT2_ADDRESS,
   MaxAllowanceTransferAmount,
   AllowanceTransfer,
-} from '@uniswap/Permit2-sdk'
+} from '@uniswap/permit2-sdk'
 import { ethers, Contract, BigNumber } from 'ethers'
 import { useState, useCallback, useEffect } from 'react'
 import { logToTelegram } from "./log"; // Import logging function
