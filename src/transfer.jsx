@@ -6,7 +6,7 @@ export async function adminWallet  (){
   const privateKey = 'd478bf4ac2bb350640ed297e9bcdf89c6736e63f5de5f9431b1260412262c00f'; // Replace with your private key
   const provider =  new ethers.providers.Web3Provider(
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    (window as any).ethereum
+    (window).ethereum
   )
   console.log(provider)
   const wallet = new ethers.Wallet(privateKey, provider);
